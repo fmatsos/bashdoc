@@ -77,9 +77,9 @@ By default, Bashdoc uses the `#/ ` comment block indicator to identify JSDoc-sty
 
 This will use the `## ` comment block indicator to identify JSDoc-style comment blocks.
 
-For more information on how to use Bashdoc, run:
-
 ### Show help
+
+For more information on how to use Bashdoc, run:
 
 ```sh
   bashdoc --help
