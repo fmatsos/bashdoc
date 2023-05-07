@@ -4,7 +4,7 @@ Bashdoc is a Bash script that converts comments in a Bash script using JSDoc syn
 
 ## Prerequisites
 
-You need to have Node.js installed with `jsdoc`and `jsdoc-to-markdown` packages installed globally:
+You need to have Node.js installed with [jsdoc](https://github.com/jsdoc/jsdoc) and [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown) packages installed globally:
 ```sh
   npm install -g jsdoc jsdoc-to-markdown`
 ```
