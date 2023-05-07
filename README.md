@@ -2,7 +2,7 @@
 
 Bashdoc is a Bash script that converts comments in a Bash script using JSDoc syntax to documentation. The script can export documentation to Markdown or HTML using JSDoc.
 
-## Prerequisites
+## 🛠 Prerequisites
 
 You need to have Node.js installed with [jsdoc](https://github.com/jsdoc/jsdoc) and [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown) packages installed globally:
 ```sh
@@ -11,7 +11,7 @@ You need to have Node.js installed with [jsdoc](https://github.com/jsdoc/jsdoc) 
 
 Bashdoc will install npm packages for you if necessary. But always required to have Node.js with npm installed.
 
-## Installation
+## ⚙️ Installation
 
 To install Bashdoc, download the script from this repository and save it to a directory in your `$PATH`. For example, to install Bashdoc in `/usr/local/bin`, run:
 
@@ -35,7 +35,7 @@ Alternatively, you can download the script and make it executable manually:
   chmod +x bashdoc.sh
 ```
 
-## Usage
+## 🚀 Usage
 
 To use Bashdoc, run the script with the path to the Bash script you want to document as an argument. For example:
 
@@ -47,7 +47,7 @@ This will output documentation in HTML format to a file named `myscript.html` in
 
 _Note that `bashdoc` is self documentable if you want to test generation._
 
-### Export to markdown
+### 📝 Export to markdown
 
 By default, Bashdoc exports documentation to HTML using JSDoc. To export documentation to Markdown instead, use the `-m` or `--markdown` option:
 
@@ -57,8 +57,7 @@ By default, Bashdoc exports documentation to HTML using JSDoc. To export documen
 
 This will output documentation in Markdown format to a file named `myscript.sh.md` in the same directory as the input file.
 
-
-### Specify output name
+### 💾 Specify output name
 
 You can specify an output file name using the `-o` or `--output-file` option:
 
@@ -68,8 +67,7 @@ You can specify an output file name using the `-o` or `--output-file` option:
 
 This will output documentation in Markdown format to a file named `documentation.md` in the same directory as the input file.
 
-
-### Change comment block indicator
+### 🔎 Change comment block indicator
 
 By default, Bashdoc uses the `#/ ` comment block indicator to identify JSDoc-style comment blocks. You can specify a different comment block indicator using the `-c` or `--comment-indicator` option:
 
@@ -79,10 +77,14 @@ By default, Bashdoc uses the `#/ ` comment block indicator to identify JSDoc-sty
 
 This will use the `## ` comment block indicator to identify JSDoc-style comment blocks.
 
-### Show help
+### ❓ Show help
 
 For more information on how to use Bashdoc, run:
 
 ```sh
   bashdoc --help
 ```
+
+## 📃 License
+
+Bashdoc is licensed under the [GPL-3.0 or later](LICENSE) license.
