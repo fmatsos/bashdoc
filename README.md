@@ -16,7 +16,7 @@ Bashdoc will install npm packages for you if necessary. But always required to h
 To install Bashdoc, download the script from this repository and save it to a directory in your `$PATH`. For example, to install Bashdoc in `/usr/local/bin`, run:
 
 ```sh
-  sudo curl -L "https://github.com/fmatsos/bashdoc/raw/main/bashdoc.sh" -o /usr/local/bin/bashdoc && sudo chmod +x /usr/local/bin/bashdoc̀`
+  sudo curl -L "https://github.com/fmatsos/bashdoc/raw/main/bashdoc.sh" -o /usr/local/bin/bashdoc && sudo chmod +x /usr/local/bin/bashdoc`
 ```
 
 ```sh
