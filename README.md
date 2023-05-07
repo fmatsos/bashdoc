@@ -45,6 +45,8 @@ To use Bashdoc, run the script with the path to the Bash script you want to docu
 
 This will output documentation in HTML format to a file named `myscript.html` in the same directory as the input file.
 
+_Note that `bashdoc` is self documentable if you want to test generation._
+
 ### Export to markdown
 
 By default, Bashdoc exports documentation to HTML using JSDoc. To export documentation to Markdown instead, use the `-m` or `--markdown` option:
